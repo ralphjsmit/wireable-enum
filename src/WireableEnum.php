@@ -4,7 +4,7 @@ namespace RalphJSmit\WireableEnum;
 
 trait WireableEnum
 {
-    public function fromLivewire($value): static
+    public static function fromLivewire($value): static
     {
         return static::tryFrom($value);
     }
