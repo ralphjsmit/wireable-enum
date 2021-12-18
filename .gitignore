@@ -9,6 +9,7 @@ docs
 phpunit.xml
 phpstan.neon
 testbench.yaml
-vendor
+/vendor
+/vendor.nosync
 node_modules
 .php-cs-fixer.cache
