@@ -16,8 +16,7 @@
         }
     ],
     "require": {
-        "php": "^8.0",
-        "spatie/laravel-package-tools": "^1.9.2",
+        "php": "^8.1",
         "illuminate/contracts": "^8.73"
     },
     "require-dev": {
@@ -30,8 +29,7 @@
     },
     "autoload": {
         "psr-4": {
-            "RalphJSmit\\WireableEnum\\": "src",
-            "RalphJSmit\\WireableEnum\\Database\\Factories\\": "database/factories"
+            "RalphJSmit\\WireableEnum\\": "src"
         }
     },
     "autoload-dev": {
@@ -46,16 +44,6 @@
     },
     "config": {
         "sort-packages": true
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "RalphJSmit\\WireableEnum\\WireableEnumServiceProvider"
-            ],
-            "aliases": {
-                "WireableEnum": "RalphJSmit\\WireableEnum\\Facades\\WireableEnum"
-            }
-        }
     },
     "minimum-stability": "dev",
     "prefer-stable": true
